@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family= Alex+Brush & display=swap');
+@import url("https://fonts.googleapis.com/css2? family= Alex+Brush & display=swap");
 
 * {
   padding: 0;
@@ -11,14 +11,13 @@
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+  padding-bottom: 2.5rem; /* Footer height */
 }
-
 
 /*---------Presentación----------*/
 .presentation {
-  background-image: url("/css/img/picture_boda.jpg");
-  background-size:  400px 300 ;
+  background-image: url("../css/img/picture_boda.jpg");
+  background-size: 500px 800;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -29,24 +28,24 @@ h2 {
   color: #566270;
   text-align: center;
   font-size: 25px;
- }
+}
 
-.subtitle{
-  font-family:  'Alex Brush', cursiva;
-  color: #B39555;
+.subtitle {
+  font-family: "Alex Brush", cursiva;
+  color: #b39555;
   text-align: center;
   font-size: 50px;
   padding: 55px;
 }
 
 h1 {
-  font-family:  'Alex Brush', cursiva;
+  font-family: "Alex Brush", cursiva;
   font-size: 80px;
   font-weight: lighter;
-  color:#510b4b;
+  color: #510b4b;
   text-align: center;
   margin-bottom: 50px;
- /*------movimiento del titulo-----*/
+  /*------movimiento del titulo-----*/
   animation-duration: 3s;
   animation-name: slidein;
   animation-direction: alternate;
@@ -81,7 +80,7 @@ p {
   color: #566270;
   text-align: center;
   padding-bottom: 50px;
- }
+}
 
 /* ----- Cuenta Regresiva ----- */
 #contador {
@@ -115,23 +114,21 @@ p {
   width: 20px;
   display: flex;
   justify-content: center;
-background-color: #510b4b;
-margin-bottom: 30px;
+  background-color: #510b4b;
+  margin-bottom: 30px;
 }
 
-.section-counter{
+.section-counter {
   margin-top: 40px;
 }
 
 /*------ceremonia-----*/
 .ceremony {
-  background-image: url("/css/img/ParroquiaDivinaProv.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
   margin-bottom: 99px;
 }
-
 
 .fa-champagne-glasses {
   font-size: 36px;
@@ -142,7 +139,6 @@ margin-bottom: 30px;
   justify-content: center;
 }
 
-
 .contenedor {
   max-width: 960px;
   margin: 0 auto;
@@ -151,15 +147,12 @@ margin-bottom: 30px;
 .bloque h2 {
   margin-bottom: 50px;
   font-size: 25px;
-
 }
 .bloque h1 {
- 
   line-height: 80px;
   text-align: center;
   margin: 0;
   padding-block: 150px;
-  
 }
 .bloque p {
   margin-bottom: 50px;
@@ -168,33 +161,32 @@ margin-bottom: 30px;
 
 .bloque.parallax {
   height: 600px;
-  background-position:50% 50% ;
+  background-position: 50% 50%;
   background-size: cover;
-  background-attachment: fixed;/*Se muestre en la totalidad y no se mueva con el scroll*/
+  background-attachment: fixed; /*Se muestre en la totalidad y no se mueva con el scroll*/
 }
 
-.parallax.image-2{
-  background-image: url("/css/img/ParroquiaDivinaProv.jpg");
+.parallax.image-2 {
+  background-image: url("../css/img/ParroquiaDivinaProv.jpg");
 }
 
 .parallax.image-3 {
-  background-image: url("/css/img/salon.jpg");
+  background-image: url("../css/img/salon.jpg");
 }
 
 .parallax.image-4 {
-  background-image: url("/css/img/lilas.jpg");
+  background-image: url("../css/img/lilas.jpg");
 }
 
-.btn{
- justify-content: center;
- display: flex;
+.btn {
+  justify-content: center;
+  display: flex;
 }
 
-.btn_ubic{
-  
-  color:white;
-  background-color: #B39555;
-  
+.btn_ubic {
+  color: white;
+  background-color: #b39555;
+
   padding: 15px 25px;
   text-decoration: none;
   cursor: pointer;
@@ -205,16 +197,16 @@ margin-bottom: 30px;
 }
 
 .btn_ubic:hover {
-  color:black;
+  color: black;
   background-color: white;
-  border: 3px solid  #B39555;
+  border: 3px solid #b39555;
 }
 #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;   
-  background-color: #f192e9; 
+  height: 2.5rem;
+  background-color: #f192e9;
   display: flex;
-  justify-content: center;        /* Footer height */
+  justify-content: center; /* Footer height */
 }
