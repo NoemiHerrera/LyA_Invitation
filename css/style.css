@@ -5,9 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-#page-container {
+.page-container {
   position: relative;
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 #content-wrap {
@@ -19,7 +19,13 @@
   background-image: url("../css/img/picture_boda.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-position: center;
   background-attachment: fixed;
+}
+@media only screen and (max-width: 767px) {
+  .page-container {
+    background-image: url(smaller-image.jpg);
+  }
 }
 
 h2 {
@@ -34,13 +40,13 @@ h2 {
   font-family: "Alex Brush", cursiva;
   color: #b39555;
   text-align: center;
-  font-size: 50px;
+  font-size: 35px;
   padding: 55px;
 }
 
 h1 {
   font-family: "Alex Brush", cursiva;
-  font-size: 80px;
+  font-size: 50px;
   font-weight: lighter;
   color: #510b4b;
   text-align: center;
@@ -68,7 +74,7 @@ h1 {
 p {
   margin-top: 20px;
   font-family: "Gentium Basic", serif;
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 250;
   color: #566270;
   text-align: center;
@@ -76,10 +82,10 @@ p {
 
 .date {
   font-family: "Gentium Basic", serif;
-  font-size: 40px;
+  font-size: 30px;
   color: #566270;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 120px;
 }
 
 /* ----- Cuenta Regresiva ----- */
@@ -171,11 +177,11 @@ p {
 }
 
 .parallax.image-3 {
-  background-image: url("../css/img/salon.jpg");
+  background-image: url("../css/img/IMG_3847.JPG");
 }
 
 .parallax.image-4 {
-  background-image: url("../css/img/lilas.jpg");
+  background-image: url("../css/img/anillo.jpg");
 }
 
 .btn {
@@ -203,10 +209,10 @@ p {
 }
 #footer a {
   position: absolute;
-  bottom: 0;
+  bottom: 10;
   width: 100%;
   height: 2.5rem;
-  background-color: #bf07b0;
+  background-color: #800376;
   display: flex;
   justify-content: center; /* Footer height */
   color: antiquewhite;
