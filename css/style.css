@@ -17,7 +17,7 @@
 /*---------Presentación----------*/
 .presentation {
   background-image: url("../css/img/picture_boda.jpg");
-  background-size: 500px 800;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -201,12 +201,13 @@ p {
   background-color: white;
   border: 3px solid #b39555;
 }
-#footer {
+#footer a {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 2.5rem;
-  background-color: #f192e9;
+  background-color: #bf07b0;
   display: flex;
   justify-content: center; /* Footer height */
+  color: antiquewhite;
 }
