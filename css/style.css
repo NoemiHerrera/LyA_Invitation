@@ -16,7 +16,7 @@
 
 /*---------Presentación----------*/
 .presentation {
-  background-image: url("../css/img/picture_boda.jpg");
+  background-image: url("../css/img/lila.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -33,7 +33,7 @@ h2 {
   margin-top: 35px;
   color: #566270;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .subtitle {
@@ -184,29 +184,101 @@ p {
   background-image: url("../css/img/anillo.jpg");
 }
 
-.btn {
-  justify-content: center;
-  display: flex;
-}
-
-.btn_ubic {
+.btn a {
+  border: none;
   color: white;
   background-color: #b39555;
-
-  padding: 15px 25px;
+  padding: 8px 25px;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto 10px auto;
+  width: 120px;
   text-decoration: none;
   cursor: pointer;
   border: none;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
+  transition: all 0.5s;
 }
 
 .btn_ubic:hover {
   color: black;
   background-color: white;
   border: 3px solid #b39555;
+  transform: scale(0.95);
 }
+
+section {
+  /*height: 80vh;*/
+  margin-top: 5rem;
+  background-image: url("../css/img/lila.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+}
+
+.form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px 25px;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: -2px 18px 26px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 18px 26px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 18px 26px -3px rgba(0, 0, 0, 0.75);
+}
+
+.first-section input {
+  width: 85%;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.second-section input {
+  width: 80%;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.third-section textarea {
+  width: 80%;
+  height: 125px;
+  margin-left: 20px;
+}
+
+.form h1,
+p {
+  text-align: center;
+}
+
+button {
+  border: none;
+  color: white;
+  background-color: #b39555;
+  padding: 8px 25px;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto 10px auto;
+  width: 120px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.5s;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+  border: 3px solid #b39555;
+  transform: scale(0.95);
+}
+
+.second-section {
+  margin-top: 15px;
+}
+
+.third-section {
+  margin-top: 15px;
+}
+
 #footer a {
   position: absolute;
   bottom: 10;
@@ -216,4 +288,5 @@ p {
   display: flex;
   justify-content: center; /* Footer height */
   color: antiquewhite;
+  margin-top: 40px;
 }
