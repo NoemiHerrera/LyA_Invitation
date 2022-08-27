@@ -16,10 +16,10 @@
 
 /*---------Presentación----------*/
 .presentation {
-  background-image: url("../css/img/lila.jpg");
-  background-size: 100% 100%;
+  background-image: url("../css/img/ramo.jpg");
+  background-size: 80% 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left center;
   background-attachment: fixed;
 }
 @media only screen and (max-width: 767px) {
@@ -181,7 +181,7 @@ p {
 }
 
 .parallax.image-4 {
-  background-image: url("../css/img/anillo.jpg");
+  background-image: url("../css/img/IMG_3874.JPG");
 }
 
 .btn a {
@@ -208,7 +208,7 @@ p {
 
 section {
   /*height: 80vh;*/
-  margin-top: 5rem;
+  margin-top: 2rem;
   background-image: url("../css/img/lila.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -289,4 +289,16 @@ button:hover {
   justify-content: center; /* Footer height */
   color: antiquewhite;
   margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+  .text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .text {
+    font-size: 16px;
+  }
 }
