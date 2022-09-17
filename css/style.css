@@ -16,17 +16,24 @@
 
 /*---------Presentación----------*/
 .presentation {
+<<<<<<< HEAD
   background-image: url("../css/img/plantillaEsc.jpg");
+=======
+  background-image: url("../css/img/orquideas.jpg");
+>>>>>>> 5f695540f00bc391292d0395e7ab24ac80000e54
   background-size: 80% 100%;
   background-repeat: no-repeat;
   background-position: left center;
   background-attachment: fixed;
 }
+<<<<<<< HEAD
 @media only screen and (max-width: 767px) {
   .page-container {
     background-image: url("../css/img/plantillalila.jpg");
   }
 }
+=======
+>>>>>>> 5f695540f00bc391292d0395e7ab24ac80000e54
 
 h2 {
   font-family: "Gentium Basic", serif;
@@ -51,24 +58,6 @@ h1 {
   color: #510b4b;
   text-align: center;
   margin-bottom: 50px;
-  /*------movimiento del titulo-----*/
-  animation-duration: 3s;
-  animation-name: slidein;
-  animation-direction: alternate;
-  animation-delay: 2s;
-  animation-fill-mode: initial;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 200%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
 }
 
 p {
@@ -173,15 +162,15 @@ p {
 }
 
 .parallax.image-2 {
-  background-image: url("../css/img/ParroquiaDivinaProv.jpg");
+  background-image: url("../css/img/parroquia.jpg");
 }
 
 .parallax.image-3 {
-  background-image: url("../css/img/IMG_3847.JPG");
+  background-image: url("../css/img/jardin.jpg");
 }
 
 .parallax.image-4 {
-  background-image: url("../css/img/IMG_3874.JPG");
+  background-image: url("../css/img/anillo.jpg");
 }
 
 .btn a {
@@ -291,14 +280,26 @@ button:hover {
   margin-top: 40px;
 }
 
+@media only screen and (max-width: 767px) {
+  .presentation {
+    background-image: url(smaller-image.jpg);
+  }
+}
+
 @media (max-width: 800px) {
-  .text {
-    font-size: 16px;
+  .subtitle {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 14px;
   }
 }
 
 @media (max-width: 600px) {
-  .text {
+  .h1 {
     font-size: 16px;
+  }
+  p {
+    font-size: 12px;
   }
 }
