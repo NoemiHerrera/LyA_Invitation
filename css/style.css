@@ -16,7 +16,7 @@
 
 /*---------Presentación----------*/
 .presentation {
-  background-image: url("../css/img/ramo.jpg");
+  background-image: url("../css/img/plantillaEsc.jpg");
   background-size: 80% 100%;
   background-repeat: no-repeat;
   background-position: left center;
@@ -24,7 +24,7 @@
 }
 @media only screen and (max-width: 767px) {
   .page-container {
-    background-image: url(smaller-image.jpg);
+    background-image: url("../css/img/plantillalila.jpg");
   }
 }
 
