@@ -309,6 +309,10 @@ button:hover {
   .form h1 {
     font-size: 28px;
   }
+#contador {display: flex;
+  flex-wrap: nowrap;
+
+}
 }
 
 }
