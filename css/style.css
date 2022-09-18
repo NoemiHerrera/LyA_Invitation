@@ -35,7 +35,7 @@ h2 {
 
 .subtitle {
   font-family: "Alex Brush", cursiva;
-  color: #b39555;
+  color: #a1864c;
   text-align: center;
   font-size: 35px;
   padding: 55px;
@@ -278,7 +278,20 @@ button:hover {
 @media only screen and (max-width: 767px) {
   .presentation {
     background-image: url(../css/img/plantillalila.jpg);
+    background-size: cover;
+    background-position: left;
   }
+  .subtitle{
+    color: #a1864c;
+    font-size: 25px;
+  }
+  h1{
+    font-size: 40px;
+  }
+  .date{
+    font-size: 23px;
+  }
+
   .parallax.image-2 {
     background-image: url(../css/img/iglesia2.jpg);
     max-width: 100%;
@@ -289,6 +302,10 @@ button:hover {
     height: 300px;
     object-fit: cover;
     object-position: bottom;
+    }
+
+    .bloque h2 {
+      font-size: 20px;
     }
 
    
@@ -307,7 +324,7 @@ button:hover {
     font-size: 18px;
   }
   .form h1 {
-    font-size: 28px;
+    font-size: 35px;
   }
 #contador {display: flex;
   flex-wrap: nowrap;
