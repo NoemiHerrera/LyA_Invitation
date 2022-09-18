@@ -16,24 +16,14 @@
 
 /*---------Presentación----------*/
 .presentation {
-<<<<<<< HEAD
   background-image: url("../css/img/plantillaEsc.jpg");
-=======
-  background-image: url("../css/img/orquideas.jpg");
->>>>>>> 5f695540f00bc391292d0395e7ab24ac80000e54
   background-size: 80% 100%;
   background-repeat: no-repeat;
   background-position: left center;
   background-attachment: fixed;
+  
 }
-<<<<<<< HEAD
-@media only screen and (max-width: 767px) {
-  .page-container {
-    background-image: url("../css/img/plantillalila.jpg");
-  }
-}
-=======
->>>>>>> 5f695540f00bc391292d0395e7ab24ac80000e54
+
 
 h2 {
   font-family: "Gentium Basic", serif;
@@ -282,24 +272,32 @@ button:hover {
 
 @media only screen and (max-width: 767px) {
   .presentation {
-    background-image: url(smaller-image.jpg);
+    background-image: url(../css/img/plantillalila.jpg);
+  }
+  img {
+    max-width: 100%;
+    width: 500px;
   }
 }
 
 @media (max-width: 800px) {
   .subtitle {
-    font-size: 14px;
+    font-size: 30px;
   }
   h2 {
-    font-size: 14px;
+    font-size: 20px;
+  }
+  p {
+    font-size: 10px;
+    color: #800376;
+  }
+  .h1 {
+    font-size: 20px;
   }
 }
 
+
 @media (max-width: 600px) {
-  .h1 {
-    font-size: 16px;
-  }
-  p {
-    font-size: 12px;
-  }
+
+ 
 }
