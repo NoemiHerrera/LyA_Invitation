@@ -69,11 +69,12 @@ p {
 
 /* ----- Cuenta Regresiva ----- */
 #contador {
-  display: flex;
+    display: flex;
+    flex-wrap: wrap;
   justify-content: center;
   font-family: "Gentium Basic", serif;
   color: #566270;
-  block-size: 80px;
+  block-size: 70px;
 }
 
 .simply-section {
@@ -84,14 +85,14 @@ p {
 }
 
 .simply-amount {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
   padding: 10px;
 }
 
 .simply-word {
   font-weight: 200;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .church {
@@ -274,10 +275,21 @@ button:hover {
   .presentation {
     background-image: url(../css/img/plantillalila.jpg);
   }
-  img {
+  .parallax.image-2 {
+    background-image: url(../css/img/iglesia2.jpg);
     max-width: 100%;
     width: 500px;
   }
+  .parallax.image-4 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+    }
+    
+   
+ 
+    
 }
 
 @media (max-width: 800px) {
@@ -285,19 +297,15 @@ button:hover {
     font-size: 30px;
   }
   h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
-  p {
-    font-size: 10px;
-    color: #800376;
+  .bloque p {
+    font-size: 18px;
   }
-  .h1 {
-    font-size: 20px;
+  .form h1 {
+    font-size: 28px;
   }
 }
 
 
-@media (max-width: 600px) {
 
- 
-}
