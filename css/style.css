@@ -14,6 +14,7 @@
   padding-bottom: 2.5rem; /* Footer height */
 }
 
+
 /*---------Presentación----------*/
 .presentation {
   background-image: url("../css/img/plantillaEsc.jpg");
@@ -282,7 +283,8 @@ button:hover {
     background-position: left;
   }
   .subtitle{
-    color: #a1864c;
+    color: #a1864c
+    ;
     font-size: 25px;
   }
   h1{
