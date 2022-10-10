@@ -334,6 +334,12 @@ button:hover {
    
 
 @media (max-width: 800px) {
+
+  .presentation {
+    background-image: url(../css/img/plantillalila.jpg);
+    background-size: cover;
+    background-position: left;
+  }
   .subtitle {
     font-size: 30px;
   }
