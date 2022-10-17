@@ -321,6 +321,7 @@ button:hover {
     width: 500px;
   }
   .parallax.image-4 {
+    background-image: url(../css/img/anillo-mov.jpg);
     width: 100%;
     height: 300px;
     object-fit: cover;
