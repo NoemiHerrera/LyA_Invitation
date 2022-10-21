@@ -16,8 +16,8 @@
 
 
 /*---------Presentación----------*/
-.presentation {
-  background-image: url("../css/img/nos-casamos.jpg");
+.presentation{
+  background-image: url("../css/img/nos_cassmos_escritorio.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position:  center;
@@ -27,11 +27,11 @@
 
 .bendicion{
   font-family: "Alex Brush", cursiva;
-  color:white;
+  color:rgb( #566270);
   text-align: center;
   font-size: 30px;
-  padding-top: 90px;
-  margin-bottom: 20px;
+  padding-top: 100px;
+  margin-bottom: 50px;
 }
 
 h1 {
@@ -40,7 +40,8 @@ h1 {
   font-weight: lighter;
   color: #cca352;
   text-align: center;
-  margin-bottom: 20px;
+  
+
 }
 
 
@@ -64,9 +65,9 @@ h2 {
 .date {
   font-family: "Gentium Basic", serif;
   font-size: 30px;
-  color:white;
+  color:#566270;
   text-align: center;
-  padding-bottom: 120px;
+  padding-bottom: 150px;
 }
 
 
@@ -172,7 +173,7 @@ p {
 }
 
 .parallax.image-2 {
-  background-image: url("../css/img/parroquia.jpg");
+  background-image: url("../css/img/iglesia2.jpg");
 }
 
 .parallax.image-3 {
@@ -289,15 +290,11 @@ button:hover {
   margin-top: 40px;
 }
 
-@media only screen and (max-width: 767px) {
-  .presentation {
-    background-image: url(../css/img/plantillalila.jpg);
-    background-size: cover;
-    background-position: left;
-  }
+
   .bendicion{
     font-size: 23px;
     margin-left: 23px;
+    color: #566270;
   }
 
   
@@ -336,7 +333,7 @@ button:hover {
 
 @media (max-width: 800px) {
 
-  .presentation {
+  .presentation{
     background-image: url(../css/img/plantillalila.jpg);
     background-size: cover;
     background-position: left;
@@ -362,5 +359,11 @@ button:hover {
 }
 }
 
+@media only screen and (max-width: 767px) {
+  .presentation {
+    background-image: url(../css/img/nos-casamos.jpg);
+    background-size: cover;
+    background-position: left;
+    
+  }
 }
-
