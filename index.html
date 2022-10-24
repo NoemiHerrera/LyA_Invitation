@@ -10,22 +10,21 @@
   <link rel="stylesheet" href="./css/style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" type="text/css" href="libreria/fontawesome-free-6.2.0-web/css/all.css">
 </head>
 
 <body>
   <div class="page-container">
     <div id="content-wrap">
-      		
-      <!-----Presentación-------->
 
       <section class="presentation">
-        <h3 class="bendicion">
+        <h2 class="title">
           Con la Bendición de Dios <br> y nuestros padres <br />
           ¡Nos casamos!
-        </h3>
+        </h2>
         <h1>Liliana<br />y<br />Alberto</h1>
         <p class="date">10. 12. 2022 <br>
-         </p>
+        </p>
       </section>
 
       <div class="invitation"></div>
@@ -33,7 +32,7 @@
         Tenemos el honor de invitarlos <br />
         a celebrar nuestro enlace matrimonial
       </h3>
-      <h2>Sábado 10 de diciembre del 2022</h2>
+      <h2 class="day">Sábado 10 de diciembre del 2022</h2>
       <p class="section-counter">¡FALTAN!</p>
       <div id="contador"></div>
 
@@ -45,10 +44,9 @@
 
       <div class="bloque">
         <div class="contenedor">
-          <i class="material-icons">church</i>></i>
-          <i class="iglesia_icon"></i> 
+          <span class="icon"><i class="fa-solid fa-church"></i></i></span>
           <h3 class="subtitle">Parroquia de la Divina Providencia</h3>
-          <h2>16:00 Hrs.</h2>
+          <p>16:00 Hrs.</p>
           <p>
             Cienfuegos 1012, Lindavista, Gustavo A. Madero,<br />
             07369 Ciudad de México, CDMX
@@ -61,17 +59,16 @@
       </div>
       <!--RECEPCIÓN--------------->
       <div class="bloque parallax image-3">
-        <div class="contenedor">
-        </div>
+        <div class="contenedor"></div>
       </div>
-
       <div class="bloque">
         <div class="contenedor">
-          <i class="material-icons">local bar</i>
+          <span class="icon"><i class="fa-solid fa-champagne-glasses"></i>
+            </i></span>
+
           <h3 class="subtitle">Hermoso Jardín</h3>
-          <h2>18:30 Hrs.</h2>
-          <p>
-            Av. Tlalnepantla-Tenayuca 300, Hab Valle Ceylan,<br />
+          <p>18:30 Hrs.</p>
+          <p>Av. Tlalnepantla-Tenayuca 300, Hab Valle Ceylan,<br />
             54150 Tlalnepantla de Baz, Méx.
           </p>
 
@@ -82,79 +79,31 @@
       </div>
 
 
-      <!-------CONFIRMAR ASISTENCIA-->
-      <div class="bloque parallax image-4">
-        <div class="contenedor"></div>
-      </div>
-
-      <div class="bloque">
+      <!-------CONFIRMAR ASISTENCIA--> 
+       <div class="bloque parallax image-4">
         <div class="contenedor">
         </div>
       </div>
 
+      <div class="bloque">
+        <div class="contenedor">
+          <span class="icon"><i class="fa-sharp fa-solid fa-check"></i></i></i></span>
+          <h3 class="subtitle">¡Por favor confirma tu asistencia!</h3>
+          <p>¡Gracias!</p>
+        </div>
 
+        <div class="btn">
+          <a target="_blank" class="btn_ubic" href= https://docs.google.com/forms/d/e/1FAIpQLSdnRTZbX99JRzYwgLjIm7qBBRUGjqRlZ1XgDXE2zyGcT_eTLA/viewform?usp=pp_url>Comfirmar</a>
+        </div>
+      </div>
 
-      <!--Galeria de fotos
+ <!--Galeria de fotos
         <div class="galeria">
        
         </div>-->
 
       <!---------Confirmar asistencia form-->
-      <section>
-        <div class="form">
-          <h1>Confirmando tu asistencia</h1>
-
-          <form>
-            <fieldset class="firs-section">
-              <legend>¿Asistiras?</legend>
-              <input type="radio" id="no" name="confirmation" value="negative" />
-              <label for="no">No</label><br />
-              <input type="radio" id="si" name="confirmation" value="positive" />
-              <label for="si">Sí</label><br />
-            </fieldset>
-
-            <fieldset class="firs-section">
-              <legend>¿Invitado por?</legend>
-              <input type="radio" id="no" name="confirmation" value="negative" />
-              <label for="no">Novio</label><br />
-              <input type="radio" id="si" name="confirmation" value="positive" />
-              <label for="si">Novia</label><br />
-            </fieldset>
-            <!-- Contact Details -->
-            <fieldset class="second-section">
-              <legend>Invitado</legend>
-              <label for="name">Nombre completo</label>
-              <input type="text" id="name" name="name" placeholder="Nombre completo" autocomplete="on" required />
-              <br /><br />
-              <label for="tel">Telefono</label>
-              <input type="tel" id="tel" placeholder="55 1234 5678" />
-              <br /><br />
-            </fieldset>
-
-
-
-            <fieldset class="third-section">
-              <legend>Mensaje</legend>
-              <label for="msg"></label>
-              <textarea id="message" class="textarea" name="comment" placeholder="Otro invitado"
-                name="message"></textarea>
-              <br /><br />
-            </fieldset>
-
-            <fieldset class="third-section">
-              <legend>Mensaje</legend>
-              <label for="msg"></label>
-              <textarea id="message" class="textarea" name="comment" placeholder="Tu buena vibra"
-                name="message"></textarea>
-              <br /><br />
-            </fieldset>
-
-            <button>Enviar</button>
-          </form>
-        </div>
-      </section>
-
-      <footer id="footer">
+ <footer id="footer">
         <a class="facebook" href="https://www.facebook.com/search/top?q=hasner%20publicidad" target="_blank"
           rel="noopener noreferrer"> <small>Hasnerpublicidad</small></a><br>
         <a href="http://mimicortes@gmail.com" target="_blank" rel="noopener noreferrer"> <small>

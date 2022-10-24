@@ -5,47 +5,63 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+:root{
+  --h1-font-size:
+}
+
 .page-container {
   position: relative;
   min-height: 100%;
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem; /* Footer height */
+  padding-bottom: 2.5rem;
+  /* Footer height */
 }
 
 
 /*---------Presentación----------*/
-.presentation{
+.presentation {
   background-image: url("../css/img/nos_cassmos_escritorio.jpg");
-  background-size: 100% 100%;
+  height: 100vh;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position:  center;
+  background-position: center;
   background-attachment: fixed;
-  
+
 }
 
-.bendicion{
+.title{
   font-family: "Alex Brush", cursiva;
-  color:rgb( #566270);
   text-align: center;
-  font-size: 30px;
-  padding-top: 100px;
-  margin-bottom: 50px;
+  font-size: 25px;
+  margin-top: 90px;
+  color: #566270;
 }
+
+
+
 
 h1 {
   font-family: "Alex Brush", cursiva;
-  font-size: 55px;
+  font-size: 38px;
   font-weight: lighter;
   color: #cca352;
   text-align: center;
-  
-
+  margin-top: 22px;
 }
 
+.date {
+  font-family: "Gentium Basic", serif;
+  font-size: 25px;
+  color: #566270;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-left: 10px;
+}
 
-h2 {
+.day{
   font-family: "Gentium Basic", serif;
   margin-top: 35px;
   color: #566270;
@@ -57,25 +73,15 @@ h2 {
   font-family: "Alex Brush", cursiva;
   color: #a1864c;
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   padding-top: 30px;
   margin-top: 60;
 }
 
-.date {
-  font-family: "Gentium Basic", serif;
-  font-size: 30px;
-  color:#566270;
-  text-align: center;
-  padding-bottom: 150px;
-}
-
-
-
 p {
   margin-top: 20px;
   font-family: "Gentium Basic", serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 250;
   color: #566270;
   text-align: center;
@@ -85,16 +91,19 @@ p {
 
 /* ----- Cuenta Regresiva ----- */
 #contador {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   font-family: "Gentium Basic", serif;
   color: #566270;
   block-size: 70px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .simply-section {
-  width: 165px;
+  margin-bottom: auto;
+  width: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,24 +115,13 @@ p {
   flex-flow: row wrap;
   font-size: 25px;
   font-weight: 500;
-  padding: 10px; 
+  padding: 10px;
 }
 
 
 .simply-word {
   font-weight: 200;
   font-size: 15px;
-}
-
-
-.iglesia_icon{
-  padding: 5px;
-  width: 20px;
-  display: flex;
-  justify-content: center;
-  background-color: #510b4b;
-  margin-bottom: 30px;
-  margin-left: 30px;
 }
 
 .section-counter {
@@ -138,15 +136,6 @@ p {
   margin-bottom: 99px;
 }
 
-/*.iglesia_icon {
-  font-size: 36px;
-  margin: 0 650px;
-  color: #566270;
-  align-content: center;
-  display: grid;
-  justify-content: center;
-}*/
-
 .contenedor {
   max-width: 960px;
   margin: 0 auto;
@@ -156,26 +145,29 @@ p {
   margin-bottom: 50px;
   font-size: 25px;
 }
+
 .bloque h1 {
   line-height: 80px;
   text-align: center;
   margin: 0;
   padding-block: 150px;
 }
+
 .bloque p {
   margin-bottom: 50px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .bloque.parallax {
   height: 600px;
   background-position: 50% 50%;
   background-size: cover;
-  background-attachment: fixed; /*Se muestre en la totalidad y no se mueva con el scroll*/
+  background-attachment: fixed;
+  /*Se muestre en la totalidad y no se mueva con el scroll*/
 }
 
 .parallax.image-2 {
-  background-image: url("../css/img/iglesia2.jpg");
+  background-image: url("../css/img/iglesia-e.jpg");
 }
 
 .parallax.image-3 {
@@ -206,6 +198,14 @@ p {
   background-color: white;
   border: 3px solid #b39555;
   transform: scale(0.95);
+}
+
+.icon {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  color: #566270;
 }
 
 section {
@@ -259,7 +259,7 @@ button {
   padding: 8px 25px;
   border-radius: 5px;
   display: block;
-  margin: 20px auto 10px auto;
+  margin: 0px auto 40px auto;
   width: 120px;
   cursor: pointer;
   border: none;
@@ -287,85 +287,32 @@ button:hover {
   width: 100%;
   height: 2.5rem;
   display: flex;
-  justify-content: center; /* Footer height */
+  justify-content: center;
+  /* Footer height */
   color: antiquewhite;
   margin-top: 40px;
 }
 
 
-  .bendicion{
-    font-size: 23px;
-    margin-left: 23px;
-    color: #566270;
-  }
+/********* @media queries********/
 
-  
-  .subtitle{
-    color: #a1864c
-    ;
-    font-size: 25px;
-  }
-  h1{
-    font-size: 38px;
-
-  }
-  .date{
-    font-size:23px;
-    margin-left: 75px;
-  }
-
-  .parallax.image-2 {
-    background-image: url(../css/img/iglesia2.jpg);
-    max-width: 100%;
-    width: 500px;
-  }
-  .parallax.image-4 {
-    background-image: url(../css/img/anillo-mov.jpg);
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    object-position: bottom;
-    }
-
-    .bloque h2 {
-      font-size: 20px;
-    }
-
-   
-
-@media (max-width: 800px) {
-
-  .presentation{
-    background-image: url(../css/img/plantillalila.jpg);
-    background-size:contain;
-    background-position: cover;
-  }
-  .subtitle {
-    font-size: 30px;
-  }
-  h2 {
-    font-size: 18px;
-  }
-  p{
-    font-size: 18px;
-  }
-  .bloque p {
-    font-size: 18px;
-  }
-  .form h1 {
-    font-size: 35px;
-  }
-#contador {display: flex;
-  flex-wrap: nowrap;
-
-}
-}
-
-@media only screen and (max-width: 767px) {
-  .presentation {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	.presentation{
     background-image: url(../css/img/nos-casamos.jpg);
-    background-size: cover;
-    background-position: left;
-    
   }
+  .contador{
+    block-size: 110px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 69px;
+  }
+
+  .subtitle{
+    font-size: 28px;
+  }
+  
+
+
 }
+
