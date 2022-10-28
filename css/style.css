@@ -8,7 +8,7 @@
 
 .page-container {
   position: relative;
-  min-height: 100%;
+  padding-top: 20px;
 }
 
 #content-wrap {
@@ -258,17 +258,33 @@ section {
     background-image: url(../css/img/nos-casamos.jpg);
     background-size: contain;
     background-attachment: fixed;
-    margin-top: auto;
     background-repeat: no-repeat;
     background-position: center center;
+   
   }
 
   .contain-presentation {
     position: absolute;
-    right: 16%;
-    bottom: 86%;
-    margin-top: 70px;
+    right: 15%;
+    margin-bottom: 85px;
   }
+
+  .title{
+    font-size: 23px;
+ 
+  }
+
+  h1{
+    font-size: 30px;
+   
+  }
+
+  .date{
+    font-size: 25px;
+    margin-bottom: 135;
+    
+  }
+
 
   #contador {
     display: flex;
