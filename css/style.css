@@ -191,12 +191,11 @@ p {
   width: 120px;
   text-decoration: none;
   cursor: pointer;
-  border: none;
   transition: all 0.5s;
 }
 
 .btn_ubic:hover {
-  color: black;
+  color:#b39555;
   background-color: white;
   border: 3px solid #b39555;
   transform: scale(0.95);
@@ -243,14 +242,11 @@ section {
   width: 120px;
   text-decoration: none;
   cursor: pointer;
-  border: none;
   transition: all 0.5s;
 }
 
 .send:hover {
-  color: black;
   background-color: white;
-  border: 3px solid #b39555;
   transform: scale(0.95);
 }
 
