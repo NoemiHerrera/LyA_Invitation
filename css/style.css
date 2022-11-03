@@ -194,7 +194,7 @@ p {
   transition: all 0.5s;
 }
 
-.btn_ubic:hover {
+.btn:hover {
   color:#b39555;
   background-color: white;
   border: 3px solid #b39555;
@@ -253,6 +253,10 @@ section {
 
 /********* @media queries********/
 
+
+
+
+
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .presentation {
     background-image: url(../css/img/nos-casamos.jpg);
@@ -298,3 +302,4 @@ section {
     padding: 2px;
   }
 }
+
