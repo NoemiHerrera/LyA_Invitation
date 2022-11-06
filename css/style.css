@@ -255,7 +255,7 @@ section {
 /********* @media queries********/
 
 
-#music{
+.music{
   display: flex;
   justify-content: center;
 }
