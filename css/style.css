@@ -19,7 +19,7 @@
 
 /*---------Presentación----------*/
 .presentation {
-  background-image: url("../css/img/nos_cassmos_escritorio.jpg");
+  background-image: url("../css/img/nos-casamos.jpg");
   height: 100vh;
   background-size: contain;
   background-repeat: no-repeat;
@@ -219,18 +219,7 @@ section {
   padding: 10px;
 }
 
-#footer a {
-  position: absolute;
-  width: 100%;
-  font-style: italic;
-  height: 3rem;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  color: rgb(255, 255, 255);
-  margin-top: 120px;
-  background: linear-gradient(90deg, rgb(211, 207, 230) 0%, rgb(147, 147, 199) 11%, rgb(136, 96, 148) 57%);
-}
+
 .send a {
   border: none;
   color: white;
@@ -250,7 +239,18 @@ section {
   transform: scale(0.95);
 }
 
-
+#footer a {
+  position: absolute;
+  width: 100%;
+  font-style: italic;
+  height: 3rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  margin-top: 120px;
+  background: linear-gradient(90deg, rgb(211, 207, 230) 0%, rgb(147, 147, 199) 11%, rgb(136, 96, 148) 57%);
+}
 /********* @media queries********/
 
 
