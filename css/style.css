@@ -27,7 +27,7 @@
   background-attachment: fixed;
 }
 
-.contain-presentation{
+.contain-presentation {
   position: absolute;
   right: 40%;
   bottom: 85%;
@@ -44,7 +44,7 @@
 h1 {
   font-family: "Alex Brush", cursiva;
   font-size: 38px;
-  font-weight:lighter;
+  font-weight: lighter;
   color: #cca352;
   text-align: center;
   margin-top: 22px;
@@ -195,9 +195,9 @@ p {
 }
 
 .btn:hover {
-  color:#b39555;
+  color: #b39555;
   background-color: white;
-  border: 3px solid #b39555;
+
   transform: scale(0.95);
 }
 
@@ -251,8 +251,14 @@ section {
   margin-top: 120px;
   background: linear-gradient(90deg, rgb(211, 207, 230) 0%, rgb(147, 147, 199) 11%, rgb(136, 96, 148) 57%);
 }
+
 /********* @media queries********/
 
+
+#music{
+  display: flex;
+  justify-content: center;
+}
 
 
 
@@ -264,7 +270,6 @@ section {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
-   
   }
 
   .contain-presentation {
@@ -273,20 +278,17 @@ section {
     margin-bottom: 85px;
   }
 
-  .title{
+  .title {
     font-size: 23px;
- 
   }
 
-  h1{
+  h1 {
     font-size: 30px;
-   
   }
 
-  .date{
+  .date {
     font-size: 25px;
     margin-bottom: 135;
-    
   }
 
 
@@ -301,5 +303,6 @@ section {
     margin-bottom: 25px;
     padding: 2px;
   }
-}
 
+
+}
