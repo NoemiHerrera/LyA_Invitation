@@ -184,7 +184,7 @@ p {
   border: none;
   color: white;
   background-color: #b39555;
-  padding: 8px 25px;
+  padding: 8px 20px;
   border-radius: 5px;
   border: 2px solid #b39555;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
@@ -228,7 +228,7 @@ section {
   border: none;
   color: white;
   background-color: #b39555;
-  padding: 8px 25px;
+  padding: 8px 20px;
   display: block;
   margin: 20px auto 10px auto;
   width: 120px;
