@@ -186,18 +186,22 @@ p {
   background-color: #b39555;
   padding: 8px 25px;
   border-radius: 5px;
+  border: 2px solid #b39555;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
   display: block;
   margin: 20px auto 10px auto;
   width: 120px;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.5s;
+  font-weight: bold;
+  
+  
 }
 
-.btn:hover {
+.btn_ubic:hover {
   color: #b39555;
   background-color: white;
-
   transform: scale(0.95);
 }
 
@@ -225,37 +229,45 @@ section {
   color: white;
   background-color: #b39555;
   padding: 8px 25px;
-  border-radius: 5px;
   display: block;
   margin: 20px auto 10px auto;
   width: 120px;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.5s;
+
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid #b39555;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
 }
 
-.send:hover {
+.btn_send:hover {
   background-color: white;
+  color: #b39555;
   transform: scale(0.95);
 }
 
 #footer a {
+  font-size: 20px;
+  text-decoration: none;
   position: absolute;
   width: 100%;
   font-style: italic;
+  font-weight: bold;
   height: 3rem;
   align-items: center;
   display: flex;
   justify-content: center;
   color: rgb(255, 255, 255);
   margin-top: 120px;
-  background: linear-gradient(90deg, rgb(211, 207, 230) 0%, rgb(147, 147, 199) 11%, rgb(136, 96, 148) 57%);
+  background: linear-gradient(90deg, rgb(191, 179, 241) 0%, rgb(142, 142, 197) 11%, rgb(136, 96, 148) 57%);
 }
 
 /********* @media queries********/
 
 
-.music{
+.music {
   display: flex;
   justify-content: center;
 }
