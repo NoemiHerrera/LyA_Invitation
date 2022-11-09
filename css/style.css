@@ -5,26 +5,22 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-.page-container {
-  position: relative;
-  padding-top: 20px;
-}
-
-#content-wrap {
-  padding-bottom: 2.5rem;
-  /* Footer height */
+#header{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
 
 /*---------Presentación----------*/
-.presentation {
+#home {
   background-image: url("../css/img/nos-casamos.jpg");
   height: 100vh;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  margin-top: 0px
 }
 
 .contain-presentation {
@@ -282,6 +278,7 @@ section {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
+    margin: 0;
   }
 
   .contain-presentation {
@@ -311,8 +308,8 @@ section {
     font-family: "Gentium Basic", serif;
     color: #566270;
     block-size: 50px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 40px;
     padding: 2px;
   }
 
