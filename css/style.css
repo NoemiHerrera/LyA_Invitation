@@ -244,6 +244,12 @@ section {
   transform: scale(0.95);
 }
 
+.music {
+  display: flex;
+  justify-content: center;
+}
+
+
 #footer a {
   font-size: 20px;
   text-decoration: none;
@@ -260,13 +266,11 @@ section {
   background: linear-gradient(90deg, rgb(191, 179, 241) 0%, rgb(142, 142, 197) 11%, rgb(136, 96, 148) 57%);
 }
 
+
+
+
 /********* @media queries********/
 
-
-.music {
-  display: flex;
-  justify-content: center;
-}
 
 
 
